@@ -58,7 +58,7 @@ export default function Home() {
         <Typography variant="h6">React LinkedIN Login Example</Typography>
         <Typography variant="body2">
           A demo page for linkedin OAuth example using linkedin API
-          <a href="">Repo Link</a>
+          {/* <a href="">Repo Link</a> */}
         </Typography>
         {user === "" ? (
           <Button color="primary" variant="contained">
