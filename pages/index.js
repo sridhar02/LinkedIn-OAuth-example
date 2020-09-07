@@ -54,13 +54,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Typography variant="h6">React LinkedIN Login Example</Typography>
-        <Typography variant="body2">
-          A demo page for linkedin OAuth example using linkedin API
+        <Typography variant="h6">React LinkedIn Login Example</Typography>
+        <Typography variant="body2" style={{ margin: "20px" }}>
+          A demo page for LinkedIn OAuth example using linkedin API which will
+          get your profile image and Name from the LinkedIn after you sign in
+          with LinkedIn
         </Typography>
         {user === "" ? (
           <Button color="primary" variant="contained">
-            <a href={authURL}>Loginin with linkedIN</a>
+            <a href={authURL}>Sign in with linkedIn</a>
           </Button>
         ) : (
           <div style={{ textAlign: "center" }}>
